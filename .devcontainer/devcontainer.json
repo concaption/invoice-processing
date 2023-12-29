@@ -1,0 +1,24 @@
+{
+    "customizations": {
+        "codespaces": {
+        },
+        "vscode": {
+            "extensions": [
+				"ms-python.python",
+				"ms-python.pylint",
+				"ms-toolsai.jupyter",
+				"github.copilot",
+				"ahmadawais.shades-of-purple",
+				"ms-vscode.makefile-tools",
+				"ms-azuretools.vscode-docker",
+				"twixes.pypi-assistant",
+				"EditorConfig.EditorConfig",
+				"mathematic.vscode-pdf",
+				"mechatroner.rainbow-csv"
+			],
+            "settings": {
+                "workbench.colorTheme": "Shades of Purple (Super Dark)"
+            }
+        }
+    }
+}

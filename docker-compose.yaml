@@ -1,0 +1,14 @@
+version: '3'
+services:
+  webapp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:${PORT}"
+    volumes:
+      - type: bind
+        source: ./app.log  # specify the log file in your host machine
+        target: /app/app.log  # specify the log file path in the container
+    env_file:
+      - .env
